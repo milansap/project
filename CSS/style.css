@@ -1,0 +1,253 @@
+/* css for home page */
+.container{
+    width: 80%;
+    margin:0 auto ;
+    padding: 1% ;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-rounded{
+    border-radius: 10px;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align:center
+}
+.text-white{
+    color:rgb(14, 13, 15); 
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color:rgb(92, 10, 10);
+
+}
+a :hover{
+    color: rgb(8, 224, 152);
+    cursor: pointer;
+    background-color: white;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.btn{
+    padding: 1%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+}
+.btn-primary{
+    background-color: brown;
+    color: rgb(238, 94, 11);
+}
+h2{
+    color: #2f3542;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.3rem ;
+    color: rgb(233, 102, 102);
+}
+*{
+margin : 0;
+padding :0;
+}
+/* css for nav bar  */
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul li{
+    padding:  0 1%;
+    display: inline;
+    font-weight: bold;
+    
+}
+.menu ul{
+list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+}
+
+
+
+/* search */
+.Search{
+    background-image: url(../IMAGES/images1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7% 0;
+    background-position: center;
+}
+.Search  input[type=search]
+{
+    width: 50%;
+    border: none;
+    font-size: 1.2rem;
+    border-radius:5px ;
+    padding: 1%;
+
+}
+/* categories */
+.categories{
+    padding: 2% 0;
+
+}
+.card{
+    width: 20%;
+    margin: 5%;
+    float: left;
+   transition: 1.5s;
+   box-shadow: 5px 5px 5px rgb(77, 73, 73);
+    
+}
+.card :hover{
+    transform:scale(1.1) ;
+
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    left: 30%;
+    bottom: 15px;
+}
+
+/* for food menu */
+.food-menu{
+    padding: 4% 0;
+    background:whitesmoke;
+}
+.box{
+    width: 43%;
+    float: left;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(26, 3, 3);
+    transition: 1.2s;
+
+}
+.box:hover{
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+.box-img{
+    width: 20%;
+    float: left;
+}
+.box-desc{
+width: 70%;
+margin-left:25%;
+}
+.item-price{
+    font-size: 1.3rem;
+    padding: 1% 0;
+}
+.item-desc{
+    font-size: 1rem;
+    color: rgb(206, 123, 41);
+    padding-bottom: 2%;
+}
+.Social{
+    padding: 4% 0;
+}
+.Social ul{
+    list-style-type: none;
+}
+.Social ul li{
+    display: inline;
+    padding: 0 1%;
+    
+}
+.footer{
+    text-align: center;
+}
+.contact-heading{
+    padding: 3% 0;
+}
+.form-horizontal{
+    width: 60%;
+    margin: 4% auto;
+    padding: 4%;
+    background: whitesmoke;
+    border-radius: 20px;
+}
+.form-horizontal label{
+    width: 100%;
+    padding:10% 0;
+    margin: 14% 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.form-control{
+    border: none;
+    width: 98%;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1% auto;
+}
+.form-horizontal button{
+    width: 50%;
+    margin-top: 2%;
+}
+fieldset{
+    padding: 4%;
+
+}
+
+
+/* responsive or mobile devices */
+@media screen  and (max-width:728px){
+    .logo{
+        width: 80%;
+        float: none;
+
+    }
+    .menu{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .Search{
+        padding: 10% 0;
+    }
+    .search input[type=search]{
+        width: 90%;
+        padding: 2% 0;
+        margin: 4% 0;
+        font-size: 1rem;
+        line-height: 10px;
+    }
+    .btn{
+        width: 90%;
+    }
+    .categories{
+        padding: 10% 0;
+    }
+    .card{
+        width: 90%;
+        padding: 0 5%;
+    }
+    .float-text{
+        left: 40%;
+    }
+    .food-menu{
+        padding: 10% 0;
+    }
+}
+    
