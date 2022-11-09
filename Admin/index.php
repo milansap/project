@@ -1,55 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/admin.css">
-    <title>Admin panel </title>
-</head>
-<body>
-    <!-- menu sec. starts -->
-    <section class="menu-bar ">
-        <div class="wrapper">
-            <div class="logo">
-                <img src="../images/logo.png" class="img-responsive" alt="logo">
-            </div>
-            <div class="menu ">
-                <ul>
-                    <li class="text-center"><a href="#">Dashboard</a></li>
-                    <li><a href="#">Users</a></li>
-                    <li><a href="#">Category</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Order</a></li>
-                </ul>
-            </div>
-            <div class="clearfix"></div>
-            <div class="form-wrapper">
-                <form action=""></form>
-            </div>
-        </div>
-    </section>
-    <!-- menu end here -->
-    <!-- body sec. starts -->
+<?php include('CommonToAll/header2all.php') ?>
+<!-- body sec. starts -->
     <section class="content">
         <div class="wrapper">
-        <div class="breadcumb">
-            <ul>
-                <li><a href="#">Dashboard</a></li>
-            
-            </ul>
+        <strong class="heading" >DASHBOARD</strong>
+        <div class="clearfix"></div>
+        <div class="col-4 text-center">
+            <h2>1</h2>
+              <br>
+            <h2>user</h2>
         </div>
+
+        <div class="col-4 text-center">
+            <h2>2</h2>
+              <br>
+            <h2>categories</h2>
+        </div>
+
+        <div class="col-4 text-center">
+            <h2>3</h2>
+              <br>
+            <h2>product</h2>
+        </div>
+
+        <div class="col-4 text-center">
+            <h2>4</h2>
+              <br>
+            <h2>order</h2>
+        </div>
+        <div class="clearfix"></div>
         </div>
     </section>
     <!-- body end here -->
-    <!-- footer sec. starts -->
-    <section class="footer">
-        <div class="wrapper text-center">
-            <p>Copyright <?php echo date('Y');?>. </p>
-            <p>All Rights Reserved. Designed and developed by  <a  class="footer-link" href="#">Milan Sapkota</a> </p>
-            
-        </div>
-    </section>
-    <!-- menu end here -->
-</body>
-</html>
+  <?php include('CommonToAll/footer.php') ?>
