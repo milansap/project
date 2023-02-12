@@ -3,4 +3,9 @@
                 echo $_SESSION['message'];
                 unset($_SESSION['message']);
             }
+
+            if(isset($_SESSION['query'])){
+                echo $_SESSION['query'];
+                unset($_SESSION['query']);
+            }
             ?>

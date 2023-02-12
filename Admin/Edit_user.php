@@ -79,7 +79,7 @@
                     Header('location:'.APP_URL.'admin/manage_user.php');
                 }else{
                     $_SESSION['message']= '<div class="error">could not Edit User .Try Again!!</div>';
-                    Header('location:'.APP_URL.'admin/add-user.php');
+                    Header('location:'.APP_URL.'admin/add-user.php?id='.$id);
                 }
             }else{
                 die("Connection Failed!". mysqli_connect_error());
